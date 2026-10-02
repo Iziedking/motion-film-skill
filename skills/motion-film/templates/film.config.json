@@ -1,0 +1,23 @@
+{
+  "title": "demo-film",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 10,
+  "proof": [0.5, 1.8, 3.2, 4.4, 5.6, 7.0, 8.4, 9.6],
+  "study": [2.8, 8.8],
+  "output": "output",
+  "loudness": { "integrated": -15, "truePeak": -1.5 },
+  "sound": [
+    { "t": 0.4, "kind": "whoosh", "gain": 0.5, "len": 0.7 },
+    { "t": 1.1, "kind": "pop", "gain": 0.35 },
+    { "t": 3.0, "kind": "whoosh", "gain": 0.45, "len": 0.9 },
+    { "t": 4.2, "kind": "tick", "gain": 0.3 },
+    { "t": 4.5, "kind": "tick", "gain": 0.3 },
+    { "t": 4.8, "kind": "tick", "gain": 0.3 },
+    { "t": 6.2, "kind": "coin", "gain": 0.35 },
+    { "t": 7.6, "kind": "whoosh", "gain": 0.4, "len": 0.8 },
+    { "t": 8.2, "kind": "chime", "gain": 0.35, "len": 1.6 }
+  ],
+  "score": { "bpm": 84, "from": 0.2, "to": 9.8, "chords": [[57, 60, 64], [53, 57, 60], [48, 52, 55], [55, 59, 62]], "gain": 0.6 }
+}

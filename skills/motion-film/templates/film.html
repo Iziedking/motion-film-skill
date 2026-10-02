@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Motion film</title>
+<style>
+  /* Put the brand font files in ./assets and name them here. A missing font
+     falls back to system sans, so the proof stills will look wrong: check them. */
+  @font-face { font-family: Brand; src: url("assets/Brand-Regular.woff2"); font-weight: 400; }
+  @font-face { font-family: Brand; src: url("assets/Brand-Semibold.woff2"); font-weight: 600; }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas { display: block; width: 100vw; height: auto; max-height: 100vh; object-fit: contain; }
+</style>
+</head>
+<body>
+<canvas id="film"></canvas>
+<script src="film.js"></script>
+</body>
+</html>

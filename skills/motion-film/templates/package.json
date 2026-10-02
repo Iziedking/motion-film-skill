@@ -1,0 +1,15 @@
+{
+  "name": "motion-film-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A deterministic motion film: authored scenes, frame-exact render, original sound, measured QC.",
+  "scripts": {
+    "proof": "node render.cjs proof",
+    "study": "node render.cjs study",
+    "render": "node render.cjs render",
+    "qc": "node render.cjs qc"
+  },
+  "dependencies": {
+    "playwright-core": "^1.50.0"
+  }
+}

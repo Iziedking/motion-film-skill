@@ -1,0 +1,14 @@
+{
+  "name": "@iziedking/motion-film-skill",
+  "version": "1.0.0",
+  "description": "An agent skill for professional motion videos (adverts, launch films, explainers) built as deterministic code with original sound and measured QC.",
+  "keywords": ["agent-skill", "claude-code", "skill", "motion-design", "video", "ffmpeg", "remotion-alternative", "explainer", "advert"],
+  "license": "MIT",
+  "author": "Israel Dominic",
+  "repository": { "type": "git", "url": "git+https://github.com/Iziedking/motion-film-skill.git" },
+  "homepage": "https://github.com/Iziedking/motion-film-skill#readme",
+  "bin": { "motion-film-skill": "bin/install.js" },
+  "files": ["bin", "skills", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com", "access": "public" }
+}
